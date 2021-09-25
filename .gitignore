@@ -11,3 +11,4 @@ _site/
 .bundle
 Gemfile.lock
 *.gem
+vendor/
