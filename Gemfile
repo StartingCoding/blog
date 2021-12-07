@@ -27,3 +27,5 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
+# Compatibility with GitHub-pages that is still using Ruby 2.7 instead of 3.0
+gem "webrick", "~> 1.7"
